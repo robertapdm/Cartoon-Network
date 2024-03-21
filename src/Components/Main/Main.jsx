@@ -7,6 +7,8 @@ import Gumball from './images-main/gumball.png'
 import Meninas from './images-main/meninas.png'
 import TomJerry from './images-main/tomjerry.png'
 import Banner from './Banner'
+import Programacao from './Programacao'
+
 function Main(){
     return(
         <S.MainStyle>
@@ -21,6 +23,7 @@ function Main(){
                 <S.ImgDois src={Meninas} alt="Imagem dos personagens do desenho Meninas Super Poderosas" />
                 <S.ImgDois src={TomJerry} alt="Imagem dos personagens do desenho Tom e Jerry" />
             </S.SectionDois>
+            <Programacao/>
         </S.MainStyle>
     )
 }
