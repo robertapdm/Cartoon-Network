@@ -42,25 +42,26 @@ function Programacao(){
 
     return(
         <S.Catalogo>
+            <S.Titulo>Guia de Programação</S.Titulo>
             <S.Section>
                 {desenhos.map((item)=>(
                     <S.Card>
-                        <h2>{item.hora}</h2>
-                        <h2>{item.nome}</h2>
+                        <S.H2>{item.hora}</S.H2>
                         <S.Img src={item.imagem} alt="" />
+                        <S.H2>{item.nome}</S.H2>
                     </S.Card>
                 ))}
             </S.Section>
-            <div>
-                <h2>Desenhos da Manhã</h2>
+            <S.Titulo2>Desenhos da Manhã</S.Titulo2>
+            <S.Section2>
                 {desenhoAntesMeioDia.map((item)=>(
-                    <div>
-                        <h2>{item.hora}</h2>
-                        <h2>{item.nome}</h2>
-                        <img src={item.imagem} alt={item.nome} />
-                    </div>
+                    <S.Card2>
+                        <S.H2>{item.hora}</S.H2>
+                        <S.Img src={item.imagem} alt={item.nome} />
+                        <S.H2>{item.nome}</S.H2>
+                    </S.Card2>
                 ))}
-            </div>
+            </S.Section2>
         </S.Catalogo>
     )
 }

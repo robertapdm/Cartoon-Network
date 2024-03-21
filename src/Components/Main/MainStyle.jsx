@@ -33,7 +33,7 @@ width: 250px;
 }
 `
 export const SectionDois = styled.section`
-height: 40vh;
+height: 60vh;
 background-color: #EDD820;
 display: flex;
 justify-content: center;
