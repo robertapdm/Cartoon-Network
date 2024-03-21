@@ -6,7 +6,7 @@ import Looney from './images-main/looney.png'
 import Gumball from './images-main/gumball.png'
 import Meninas from './images-main/meninas.png'
 import TomJerry from './images-main/tomjerry.png'
-
+import Banner from './Banner'
 function Main(){
     return(
         <S.MainStyle>
@@ -15,6 +15,7 @@ function Main(){
                 <S.ImgUm src={Ben10} alt="Imagem dos personagens do desenho Ben 10" />
                 <S.ImgUm src={Looney} alt="Imagem dos personagens do desenho Looney Tunes" />
             </S.SectionUm>
+            <Banner/>
             <S.SectionDois className="dois">
                 <S.ImgDois src={Gumball} alt="Imagem dos personagens do desenho Gumball" />
                 <S.ImgDois src={Meninas} alt="Imagem dos personagens do desenho Meninas Super Poderosas" />

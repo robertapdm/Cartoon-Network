@@ -2,11 +2,10 @@ import styled from "styled-components";
 
 export const MainStyle = styled.main`
 width: 100vw;
-height: 80vh;
+height: 100%;
 
 @media screen and (max-width:500px) {
 height: 60vh;
-background-color: red;
 }
 `
 export const SectionUm = styled.section`
